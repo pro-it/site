@@ -24,3 +24,7 @@ a.lang:hover, a.lang:visited, a.lang:active, a.lang:focus, a.lang, a.slang:hover
 a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {color: #333333;}
 a.lang:hover {cursor: pointer; color: #999999;}
 * HTML a.lang:hover {cursor: hand;}
+
+img.logo-proit {position: relative; border: 0; padding: 0; margin: 0; top: 0; bottom: 0; left: 0; right: 0; height: 64px; width: 64px; background-image: none; background-color: none; background-repeat: no-repeat; background-position: center center; z-index: 0; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+img.logo-proit:hover {cursor: pointer;}
+* HTML img.logo-prot:hover {cursor: hand;}
