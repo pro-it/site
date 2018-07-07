@@ -28,4 +28,4 @@ img.logo-proit {position: relative; border: 0; padding: 0; margin: 0; top: 0; bo
 img.logo-proit:hover {cursor: pointer;}
 * HTML img.logo-prot:hover {cursor: hand;}
 
-ul {list-style-type: square; border: 0; padding: 0; margin: 0; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 80%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+ul {list-style-type: square; border: 0; padding: 0; margin: 0; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 100%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
