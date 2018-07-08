@@ -1,1 +1,1 @@
-../proit/robots.txt
+../robots.txt
