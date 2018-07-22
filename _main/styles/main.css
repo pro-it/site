@@ -19,7 +19,7 @@ a.link:hover {cursor: pointer; color: #999999;}
 
 h1, h2, h3 {font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #666666;}
 
-a.lang:hover, a.lang:visited, a.lang:active, a.lang:focus, a.lang, a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {border: 0; padding: 0; margin: 0 1% 0 1%; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 80%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
+a.lang:hover, a.lang:visited, a.lang:active, a.lang:focus, a.lang, a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {display: block-inline; border: 0; padding: 0 1% 0 1%; margin: 0 1% 0 1%; font-family: HelveticaNeueCyrillic, Helvetica, Arial; color: #0066cc; font-size: 80%; text-decoration: none; outline: none; cursor: default; text-transform: none;}
 a.slang:hover, a.slang:visited, a.slang:active, a.slang:focus, a.slang, p.lang {color: #333333;}
 a.lang:hover {cursor: pointer; color: #999999;}
 * HTML a.lang:hover {cursor: hand;}
