@@ -1,1 +1,55 @@
-../index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ПРГІТ | ПРОИТ | TEFIT</title>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="ПРГІТ | ПРОИТ | TEFIT">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://prgit.by/">
+    <meta property="og:image" content="https://prgit.by/images/og.png">
+    <meta property="og:image:secure_url" content="https://prgit.by/images/og.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:width" content="600">
+    <meta property="og:site_name" content="prgit.by">
+    <meta property="og:description" content="Прафсаюз Работнікаў Галіны Інфармацыйных Тэхналогій | Профсоюз Работников Области Информационных Технологий | Trade-Union of Employees in the Field of Information Technologies">
+    <meta property="og:locale" content="">
+    <meta property="og:locale:alternate" content="be_BY">
+    <meta property="og:locale:alternate" content="ru_RU">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:ttl" content="345600">
+    <meta itemprop="name" content="ПРГІТ | ПРОИТ | TEFIT">
+    <meta itemprop="description" content="Прафсаюз Работнікаў Галіны Інфармацыйных Тэхналогій | Профсоюз Работников Области Информационных Технологий | Trade-Union of Employees in the Field of Information Technologies">
+    <meta itemprop="image" content="https://prgit.by/images/og.png">
+    <meta itemprop="author" content="">
+    <meta itemprop="publisher" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0066cc">
+    <script>
+function redirectByLocale() {
+    var locale = window.navigator.language || window.navigator.browserLanguage || window.navigator.systemLanguage || window.navigator.userLanguage;
+    var lang = "en";
+
+    if (locale != undefined) {
+        locale = locale.substr(0, 2);
+
+        if (locale == "be" || locale == "ru") {
+            lang = locale;
+        }
+    }
+
+    window.location.replace(window.location.protocol + "//" + window.location.host + "/" + lang + "/")
+}
+    </script>
+</head>
+<body onload="redirectByLocale()"></body>
+</html>
